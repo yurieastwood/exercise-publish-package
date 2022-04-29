@@ -1,3 +1,17 @@
 {
-  "your": "json config here"
+  "name": "@yurieastwood/exercise-publish-package",
+  "version": "1.0.2",
+  "description": "sample package for test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yurieastwood/exercise-publish-package.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
